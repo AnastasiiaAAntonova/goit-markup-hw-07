@@ -138,16 +138,21 @@ body {
 	line-height: 1.19;
 	letter-spacing: 0.03em;
 	color: #000000;
-	padding-top: 24px;
-	padding-bottom: 25px;
-	margin-right: 93px;
 }
 .logo span {
 	color: var(--accent-color);
 }
 
+.logo--header {
+	padding-top: 24px;
+	padding-bottom: 25px;
+	margin-right: 93px;
+}
+
 .logo--footer {
+	display: inline-block;
 	color: var(--white-color);
+	margin-bottom: 20px;
 }
 
 .btn {
@@ -240,7 +245,7 @@ body {
 }
 
 /* ----------WORK PRINCIPLES---------- */
-.principles__section {
+.principles.section {
 	padding-bottom: 0;
 }
 
@@ -321,7 +326,7 @@ body {
 	background-color: #f5f4fa;
 }
 
-.team-title {
+.team__title {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.17;
@@ -332,24 +337,24 @@ body {
 	margin-bottom: 50px;
 }
 
-.team-list {
+.team__list {
 	display: flex;
 	justify-content: space-between;
 	gap: 30px;
 }
 
-.team-item {
+.team__card {
 	width: 270px;
 	background: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
 }
 
-.team-item:last-child {
+.team__item:last-child {
 	margin-right: 0;
 }
 
-.team-subtitle {
+.team__subtitle {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.19;
@@ -359,7 +364,7 @@ body {
 	padding-top: 30px;
 	margin-bottom: 10px;
 }
-.team-text {
+.team__text {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
@@ -462,37 +467,34 @@ body {
 	font-style: normal;
 }
 
-.contacts-list {
+.contacts__list {
 	width: 231px;
 }
 
-.contacts-item {
+.contacts__item {
 	margin-bottom: 9px;
 }
 
-.contacts-item:last-child {
+.contacts__item:last-child {
 	margin-bottom: 0;
 }
 
-.contacts-address-link {
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-	color: var(--white-color);
-}
-.contacts-email,
-.contacts-tel {
+.contacts__link {
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-soc {
+.contacts__link--address {
+	color: #ffffff;
+}
+
+.footer_socials {
 	margin-left: 70px;
 }
 
-.footer-soc-header,
+.footer__header,
 .footer-form-header,
 .footer-lable {
 	font-weight: 700;
