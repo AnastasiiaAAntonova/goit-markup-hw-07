@@ -239,7 +239,7 @@ body {
   border: transparent;
   padding: 6px 20px;
   cursor: pointer;
-  transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic);
+  transition: background-color 250ms var(--cubic), box-shadow 250ms var(--cubic), color 250ms var(--cubic);
 }
 
 .btn:hover,
@@ -612,7 +612,7 @@ body {
   position: relative;
   display: block;
   color: currentColor;
-  transition: color 250ms var(--cubic), box-shadow 250ms var(--cubic), transform 250ms var(--cubic);
+  transition: box-shadow 250ms var(--cubic);
 }
 .portfolio-examples-link:hover, .portfolio-examples-link:focus {
   color: currentColor;
